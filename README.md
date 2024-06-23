@@ -1,2 +1,5 @@
 # exam06
-luthov for cpp05
+to start server;
+./miniserve <port> 
+for client joining;
+nc localhost <port> 

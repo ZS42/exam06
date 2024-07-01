@@ -1,0 +1,20 @@
+----------------8<-------------[ START TEST 
+        🔎 YOUR OUTPUT:
+../../rendu/mini_serv/mini_serv.c:171:27: error: use of undeclared identifier 'max_fd'
+    for(int fd = 0; fd <= max_fd; fd++)
+                          ^
+../../rendu/mini_serv/mini_serv.c:180:9: error: use of undeclared identifier 'still_typing'
+    if (still_typing[sender_fd])
+        ^
+../../rendu/mini_serv/mini_serv.c:183:45: error: use of undeclared identifier 'ids'
+        sprintf(send_buff, "client %d: %s", ids[sender_fd], temp_buff);
+                                            ^
+../../rendu/mini_serv/mini_serv.c:233:31: error: use of undeclared identifier 'str'
+                        while (ret_recv == 1000 || str[strlen(str) - 1] != '\n')
+                                                   ^
+../../rendu/mini_serv/mini_serv.c:233:42: error: use of undeclared identifier 'str'
+                        while (ret_recv == 1000 || str[strlen(str) - 1] != '\n')
+                                                              ^
+5 errors generated.
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]

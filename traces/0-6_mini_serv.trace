@@ -1,0 +1,7 @@
+----------------8<-------------[ START TEST 
+        ❌ PORT IS NOT OPEN 
+        💻 TEST
+./a.out 8889
+ Using nc after the server is started
+        Cannot connect to port 8889
+----------------8<------------- END TEST ]

@@ -1,0 +1,17 @@
+----------------8<-------------[ START TEST 
+        🔎 YOUR OUTPUT:
+../../rendu/mini_serv/mini_serv.c:217:31: error: use of undeclared identifier 'str'
+                        while (ret_recv == 1000 || str[strlen(str) - 1] != '\n')
+                                                   ^
+../../rendu/mini_serv/mini_serv.c:217:42: error: use of undeclared identifier 'str'
+                        while (ret_recv == 1000 || str[strlen(str) - 1] != '\n')
+                                                              ^
+../../rendu/mini_serv/mini_serv.c:252:33: error: call to undeclared function 'flush_temp_buff'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+                                flush_temp_buff(fd);
+                                ^
+../../rendu/mini_serv/mini_serv.c:260:33: error: call to undeclared function 'flush_temp_buff'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration]
+                                flush_temp_buff(fd);
+                                ^
+4 errors generated.
+        ❌ COMPILATION ERROR
+----------------8<------------- END TEST ]
